@@ -8,7 +8,7 @@ function AutoUpdate(data)
     if tonumber(data) > tonumber(ver) then
         print("Nueva version found :D " .. data)
         print("Downloading actualizacion :v")
-        DownloadFileAsync("https://raw.githubusercontent.com/Auschwitzer/GoS/ElRayz.lua", SCRIPT_PATH .. "ElRayz.lua", function() print("Listo papa, Press x2 F6") return end)
+        DownloadFileAsync("https://raw.githubusercontent.com/Auschwitzer/GoS/master/ElRayz.lua", SCRIPT_PATH .. "ElRayz.lua", function() print("Listo papa, Press x2 F6") return end)
     end
 end
 
