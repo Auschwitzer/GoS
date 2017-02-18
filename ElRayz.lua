@@ -12,7 +12,7 @@ function AutoUpdate(data)
     end
 end
 
-GetWebResultAsync("https://raw.githubusercontent.com/Auschwitzer/GoS/Version/ElRayz.lua", AutoUpdate)
+GetWebResultAsync("https://raw.githubusercontent.com/Auschwitzer/GoS/master/Version/ElRayz.version", AutoUpdate)
 -- Requerimientos:
 require ("OpenPredict")
 require ("DamageLib")
