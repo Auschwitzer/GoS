@@ -11,7 +11,7 @@ function AutoUpdate(data)
         PrintChat("No updates found!")
     end
 end
---Pega Versão Antes
+
 GetWebResultAsync("https://raw.githubusercontent.com/Auschwitzer/GoS/master/Versions/ElRayz.version", AutoUpdate)
 
 require ("OpenPredict")
